@@ -11,7 +11,7 @@ const todosData = [
   },
   {
     id: "3",
-    name: "Play a game",
+    name: "Water plants",
     completed: false
   },
   {
