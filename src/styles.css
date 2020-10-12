@@ -1,0 +1,64 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.body {
+  margin: 0;
+}
+
+.todoitem {
+  color: blue;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 30px 20px 0;
+  width: 70%;
+  border-bottom: 1px solid #cecece;
+  font-family: Roboto, sans-serif;
+  font-weight: 100;
+  font-size: 15px;
+  color: #333333;
+}
+
+.todolist {
+  background-color: white;
+  margin: auto;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 1px solid #efefef;
+  padding: 30px;
+}
+
+.contact-card {
+  color: blue;
+}
+
+.img {
+  width: 500px;
+}
+
+.joke {
+  padding: 30px;
+  border: 1px solid #efefef;
+}
+
+.catalogue-item {
+  padding: 30px;
+  border: 1px solid #efefef;
+  background-color: gray;
+}
+
+.navbar {
+  background-color: #333;
+  color: whitesmoke;
+  height: 100px;
+  margin-bottom: 15px;
+  text-align: center;
+  font-size: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
