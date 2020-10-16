@@ -1,4 +1,4 @@
-const todosData = [
+const todosData2 = [
   {
     id: 1,
     name: "Jerk off",
@@ -26,4 +26,4 @@ const todosData = [
   }
 ];
 
-export default todosData;
+export default todosData2;

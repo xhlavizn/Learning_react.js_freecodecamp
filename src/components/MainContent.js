@@ -4,6 +4,13 @@ import Funnyman from "./Funnyman";
 import Catalogue from "./Catalogue";
 import ToDoList from "./ToDoList";
 import ClickMe from "./ClickMe";
+import ChangePlease from "./ChangePlease";
+import Loading from "./Loading";
+import ApiExercise from "./ApiExercise";
+import NameForm from "./Forms"
+import EssayForm from "./Forms";
+import TravelForm from "./Form/TravelForm"
+
 
 export default function MainContent() {
   const firstname = "Tonda";
@@ -13,6 +20,26 @@ export default function MainContent() {
     <div>
       <main>
         <h1> This is {firstname + " " + lastname}´s test </h1>
+        
+        <div>
+          <TravelForm />
+        </div>
+
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+
+
+        <div>
+          <ApiExercise />
+        </div>
+
+        <div>
+          <EssayForm />
+        </div>
+        
         <div className="todolist">
           <ToDoList />
         </div>
@@ -43,6 +70,14 @@ export default function MainContent() {
         <div>
           <ClickMe />
         </div>
+        <div>
+          <ChangePlease />
+        </div>
+        <div>
+          <Loading />
+        </div>
+
+
       </main>
     </div>
   );
